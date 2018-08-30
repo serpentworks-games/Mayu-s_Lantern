@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: PlayerRMOveride
+  m_Controller: {fileID: 9100000, guid: d278720e75f9a7241bf35565bd8a2dac, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 1b8b83f6ff3f3e04ab6ebe9bd9ab0fc2, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 391977bc683dccb4eb41e3c44f9130bd, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: a79e2bc683fa2f04891d80d6eae0f780, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: adaa86a935e542a46b80e8b0932087f8, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 69a5a241305f48e4e936885f2b3e97d6, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 0b2da75de88a90e47a188403ecba7cab, type: 3}

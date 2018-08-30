@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec41d8cdfd5da0b42a3b551321af378f, type: 3}
+  m_Name: AllConditions
+  m_EditorClassIdentifier: 
+  conditions:
+  - {fileID: 114864222868952410}
+  - {fileID: 114895175766391860}
+  - {fileID: 114448533015695920}
+  - {fileID: 114220198450231624}
+  - {fileID: 114628243965109292}
+--- !u!114 &114220198450231624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e31b2f568f111374182abf1ae73b03b9, type: 3}
+  m_Name: Switch2Activated
+  m_EditorClassIdentifier: 
+  description: Switch2Activated
+  satisfied: 0
+  hash: 1167620638
+--- !u!114 &114448533015695920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e31b2f568f111374182abf1ae73b03b9, type: 3}
+  m_Name: Switch1Activated
+  m_EditorClassIdentifier: 
+  description: Switch1Activated
+  satisfied: 0
+  hash: -1364213475
+--- !u!114 &114628243965109292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e31b2f568f111374182abf1ae73b03b9, type: 3}
+  m_Name: Switch3Activated
+  m_EditorClassIdentifier: 
+  description: Switch3Activated
+  satisfied: 0
+  hash: -1436937952
+--- !u!114 &114864222868952410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e31b2f568f111374182abf1ae73b03b9, type: 3}
+  m_Name: TalkedTo
+  m_EditorClassIdentifier: 
+  description: TalkedTo
+  satisfied: 0
+  hash: 1218931757
+--- !u!114 &114895175766391860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e31b2f568f111374182abf1ae73b03b9, type: 3}
+  m_Name: DoorOpened
+  m_EditorClassIdentifier: 
+  description: DoorOpened
+  satisfied: 0
+  hash: -1643810558

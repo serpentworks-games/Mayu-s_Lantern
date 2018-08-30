@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56287909ddea366478a96c98412cd881, type: 3}
+  m_Name: BaseLevelItems
+  m_EditorClassIdentifier: 
+  _items:
+  - Name: PickupItem
+    Prefab: {fileID: 1862649593889194, guid: ad76a301442ba174babdf59eb4634e44, type: 2}
+    ExpandedInInspector: 0
+  - Name: Player
+    Prefab: {fileID: 1058173342455848, guid: 8918af3d45429054a992706dec29bad5, type: 2}
+    ExpandedInInspector: 0
+  - Name: AIWaypoint
+    Prefab: {fileID: 1524588293291722, guid: 4d43b9da14e70bb4db6ca7f7933619c4, type: 2}
+    ExpandedInInspector: 0
+  - Name: NPC
+    Prefab: {fileID: 1552891655371078, guid: bf1c495009e5e9641b37cf40ab0f63f8, type: 2}
+    ExpandedInInspector: 0
+  - Name: LumberingEnemy
+    Prefab: {fileID: 1443931917354746, guid: bc503bab94b1be947975710c3c13d8dc, type: 2}
+    ExpandedInInspector: 0
+  - Name: InteractionZone
+    Prefab: {fileID: 1241497207772440, guid: 4f47aae1f0d93cb46b5e08eaa98e39c9, type: 2}
+    ExpandedInInspector: 0
+  - Name: LightBeamStart
+    Prefab: {fileID: 1839153880116502, guid: 2866d51f065f5a3459063ad111b57c57, type: 2}
+    ExpandedInInspector: 0
+  - Name: LightMirrorBase
+    Prefab: {fileID: 1126597100266394, guid: ae74b19eab73fa64184e5b6aad659e1b, type: 2}
+    ExpandedInInspector: 0
+  - Name: LightTriggerBase
+    Prefab: {fileID: 1633685866039968, guid: ae2af5b63220b5240a199f9be2290f7a, type: 2}
+    ExpandedInInspector: 0
+  - Name: Doors
+    Prefab: {fileID: 1328920166680010, guid: 91e333b897a2c94428e569d6a6cb14b9, type: 2}
+    ExpandedInInspector: 0
+  _submenu: 
