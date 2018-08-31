@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameController : MonoBehaviour
+public class AreaController : MonoBehaviour
 {
     //Last Known Player Sighting
     public Vector3 position = new Vector3(1000f, 1000f, 1000f);

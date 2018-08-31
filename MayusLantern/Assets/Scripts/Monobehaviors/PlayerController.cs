@@ -22,7 +22,8 @@ public class PlayerController : ActorController {
     Rigidbody rBody;
     float h;
     float v;
-    float speedDampTime = 0.1f;
+    [HideInInspector]
+   public float speedDampTime = 0.1f;
     float turnSmoothing = 15f;
     bool sneak;
     bool playerDead;
@@ -166,7 +167,7 @@ public class PlayerController : ActorController {
         }
 
         anim.SetFloat(hash.speedFloat, 0);
-        lController.lastPlayerSightingPosition = lController.resetPosition;
+        lController.position = lController.resetPosition;
 
     }
 

@@ -7,7 +7,6 @@ using Sirenix.OdinInspector;
 public class GameController : MonoBehaviour
 {
 
-
     [TabGroup("Saved Player Data")]
     public PlayerData savedPlayerData = new PlayerData();
     [TabGroup("Local Copy of Data")]
@@ -72,7 +71,7 @@ public class GameController : MonoBehaviour
         if (timer >= resetTimer)
         {
             LoadData();
-            levelController.ResetLevelData();
+            //levelController.ResetLevelData();
         }
 
     }

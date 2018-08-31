@@ -20,11 +20,11 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 1, g: 1, b: 1, a: 1}
+  m_AmbientSkyColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 1
+  m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
@@ -44,7 +44,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -72,7 +72,7 @@ LightmapSettings:
     m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
-    m_BakeBackend: 0
+    m_BakeBackend: 1
     m_PVRSampling: 1
     m_PVRDirectSampleCount: 32
     m_PVRSampleCount: 500
@@ -89,7 +89,8 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000006, guid: 1c94c4317649b8c4fb5bea3874b66206,
+    type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -717,27 +718,27 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4201318053135536, guid: 61da2b52b49017848b36d90872fa13c0, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4201318053135536, guid: 61da2b52b49017848b36d90872fa13c0, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -45
       objectReference: {fileID: 0}
     - target: {fileID: 4201318053135536, guid: 61da2b52b49017848b36d90872fa13c0, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: 0.25897384
       objectReference: {fileID: 0}
     - target: {fileID: 4201318053135536, guid: 61da2b52b49017848b36d90872fa13c0, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.000000007732415
       objectReference: {fileID: 0}
     - target: {fileID: 4201318053135536, guid: 61da2b52b49017848b36d90872fa13c0, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.00000002883927
       objectReference: {fileID: 0}
     - target: {fileID: 4201318053135536, guid: 61da2b52b49017848b36d90872fa13c0, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9658844
       objectReference: {fileID: 0}
     - target: {fileID: 4201318053135536, guid: 61da2b52b49017848b36d90872fa13c0, type: 2}
       propertyPath: m_RootOrder
@@ -757,12 +758,12 @@ Prefab:
     - target: {fileID: 20108814518883528, guid: 61da2b52b49017848b36d90872fa13c0,
         type: 2}
       propertyPath: far clip plane
-      value: 5000
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 20108814518883528, guid: 61da2b52b49017848b36d90872fa13c0,
         type: 2}
       propertyPath: field of view
-      value: 40
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 114306902769943724, guid: 61da2b52b49017848b36d90872fa13c0,
         type: 2}
@@ -791,7 +792,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1788275287867144, guid: 61da2b52b49017848b36d90872fa13c0, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61da2b52b49017848b36d90872fa13c0, type: 2}
@@ -1702,20 +1703,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementState: 0
-  makingSoundState: 0
   dyingState: 0
   idleIndexInt: 0
   speedFloat: 0
-  angularSpeedFloat: 0
-  swipeFloat: 0
-  attackWeightFloat: 0
   playerInSightBool: 0
   openBool: 0
   sneakingBool: 0
   hasLanternBool: 0
   deadBool: 0
-  makingSoundBool: 0
-  playerInRangeBool: 0
 --- !u!114 &2102642059
 MonoBehaviour:
   m_ObjectHideFlags: 0
