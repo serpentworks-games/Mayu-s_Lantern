@@ -95,10 +95,6 @@ public class PlayerController : ActorController {
         SaveLoadDataTest();
     }
 
-    public void Interaction()
-    {
-
-    }
     #region LanternPickUpDropCode Not Implimented
 
     public void PickUpLantern(GameObject lantern)
